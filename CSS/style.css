@@ -1,0 +1,497 @@
+body {
+  background-color: #111111;
+}
+body header .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .gumb {
+  display: none;
+}
+
+.head_section {
+  min-height: 1024px;
+  background: url(../img/u.jpg) center center;
+  background-repeat: no-repeat;
+  padding-bottom: 110px;
+  background-size: cover;
+  padding-top: 34px;
+  border-bottom: solid 5px #FFC700;
+}
+.head_section .header_logo {
+  width: 100%;
+}
+.head_section .head_text {
+  margin-top: 140px;
+}
+.head_section .menu {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+.head_section .menu a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+.head_section .menu a:hover {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #FFC700;
+}
+.head_section .menu a a:active {
+  border-bottom: 5px solid #FFC700;
+}
+.head_section .btn_row {
+  margin: auto;
+}
+.head_section h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+.head_section p {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 14px;
+}
+.head_section button {
+  background: #FFC700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 35px;
+  border: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+.head_section button:hover {
+  background-color: #FFDE6A;
+}
+.head_section button a {
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+}
+
+.main_section {
+  min-height: 735px;
+  border-bottom: solid 5px #FFC700;
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+.main_section .container .align-items-center h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+}
+.main_section .container .align-items-center div {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+}
+.main_section .container .align-items-center a {
+  text-decoration: none;
+  outline: none;
+  color: #FFC700;
+}
+.main_section_cards {
+  margin-top: 15px;
+}
+.main_section .card {
+  min-height: 465px;
+  background-clip: content-box;
+  background-color: #131C20;
+  padding-bottom: 0px;
+}
+.main_section .card:hover {
+  background-color: #1A2B33;
+}
+.main_section .card div {
+  height: 100%;
+  padding-top: 100px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #7B7B7B;
+  line-height: 50px;
+  border-bottom: 0px solid #FFC700;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+  text-align: center;
+}
+.main_section .card div:hover {
+  border-bottom: 5px solid #FFC700;
+}
+.main_section .card div p {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+}
+
+.achivments_section {
+  padding-top: 60px;
+  border-bottom: 5px solid #FFC700;
+  padding-bottom: 60px;
+}
+.achivments_section h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.achivments_section img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.popular_sections {
+  min-height: 795px;
+  margin-top: 60px;
+}
+.popular_sections .row {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.popular_sections .row a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFC700;
+  text-decoration: none;
+  outline: none;
+  text-align: right;
+}
+.popular_sections_cards {
+  min-height: 530px;
+}
+.popular_sections_cards div div {
+  height: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 375px;
+  padding-bottom: 35px;
+}
+.popular_sections_cards div div h4 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.popular_sections_cards div div p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFC700;
+  position: relative;
+}
+.popular_sections_cards .card1 {
+  background: url(../img/z.jpg) center center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+.popular_sections_cards .card2 {
+  background: url(../img/x.png) center center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+.popular_sections_cards .card3 {
+  background: url(../img/c.png) center center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+
+.section_blank {
+  margin-top: 65px;
+}
+.section_blank .container {
+  background: url(../img/blank_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  min-height: 520px;
+}
+.section_blank .container h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-top: 35px;
+}
+.section_blank .container input {
+  display: block;
+  border-radius: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 35px;
+}
+.section_blank .container p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+.section_blank .container button {
+  display: block;
+  background: #FFC700;
+  padding: 10px 20px;
+  margin-top: 35px;
+  border: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.section_blank .container button a {
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+}
+.section_blank .container .under {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #BDBDBD;
+  margin-top: 15px;
+}
+.section_blank .container .btn_row {
+  margin: auto;
+}
+.section_blank .container .name_row {
+  margin: auto;
+}
+.section_blank .container .num_row {
+  margin: auto;
+}
+
+footer {
+  margin-top: 130px;
+  padding-top: 10px;
+  background-color: #131C20;
+  padding-bottom: 70px;
+}
+footer p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: #FFC700;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 20px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+footer a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+footer a:hover {
+  color: white;
+}
+footer .social_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .social_links li {
+  margin-right: 10%;
+}
+
+@media (max-width: 992px) {
+  .head_section h1 {
+    text-align: center;
+  }
+  .head_section p {
+    text-align: center;
+  }
+  .head_section .menu {
+    margin-top: 35px;
+    font-size: 22px;
+  }
+
+  .main_section h2 {
+    text-align: center;
+  }
+  .main_section .container .align-items-center div {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .achivments_section h3 {
+    text-align: center;
+  }
+
+  .popular_sections .row {
+    text-align: center;
+  }
+  .popular_sections .row a {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .section_blank .container h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .section_blank .container p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .section_blank .container .under {
+    text-align: center;
+  }
+
+  footer .right {
+    text-align: right;
+  }
+  footer .additional p {
+    text-align: center;
+  }
+  footer .additional ul {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .additional ul li {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .head_section {
+    min-height: 655px;
+  }
+  .head_section header .menu {
+    top: 0px;
+    left: 0px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 20px;
+    margin-top: 0px;
+    position: absolute;
+    margin-bottom: 0px;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.9);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .head_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .head_section .gumb {
+    display: block;
+    text-align: right;
+  }
+  .head_section h1 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .head_section p {
+    font-size: 19px;
+    text-align: left;
+  }
+  .head_section .head_text {
+    margin-top: 40px;
+  }
+
+  .main_section .container .align-items-center h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .main_section .container .align-items-center a {
+    display: none;
+  }
+
+  .popular_sections .row {
+    text-align: left;
+    margin-top: 30px;
+  }
+  .popular_sections .row a {
+    text-align: left;
+  }
+
+  .popular_sections_cards div div {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .popular_sections_cards div div h4 {
+    font-size: 21px;
+  }
+  .popular_sections_cards div div p {
+    font-size: 19px;
+  }
+
+  .section_blank .container h2 {
+    font-size: 23px;
+    text-align: left;
+    line-height: 34px;
+  }
+
+  footer .right {
+    text-align: center;
+  }
+  footer .left {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
